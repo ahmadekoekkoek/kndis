@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: kndis
+  labels:
+    name: kndis
+    app.kubernetes.io/name: kndis
+    app.kubernetes.io/component: namespace

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kndis-config
+  namespace: kndis
+data:
+  GIN_MODE: "release"
+  KONOHA_BASE_URL: "https://idp.konoha.gov"
+  CONSENT_SERVICE_URL: "http://consent-service:8082"
+  HEALTH_SERVICE_URL: "http://health-service:8085"
+  TAX_SERVICE_URL: "http://tax-service:8086"
+  BANK_SERVICE_URL: "http://bank-service:8087"
